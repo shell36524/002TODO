@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  background-image: url("backgroundIMG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  background-color: white;
+  min-height: 100vh;
+  box-shadow: rgba(93, 73, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.userArea{
+  border: 1px solid rgb(255, 196, 212);
+  margin-top: 2em;
+}
+.userTabs{
+  display: flex;
+  border: 1px solid rgb(255, 196, 212);
+  position: relative;
+}
+.userTabs div{
+  padding: 1em;
+}
+#underLine{
+  height: 4px;
+  background-color: palevioletred;
+  position: absolute;
+  width: 60px;
+  left: 0px;
+  top: 50px;
+  padding: 0px;
+}
+.userDo{
+  display: flex;
+  justify-content: space-between;
+}
+.userDone{
+  text-decoration: line-through;
+}
+.userTabs div{
+  cursor: pointer;
+}
